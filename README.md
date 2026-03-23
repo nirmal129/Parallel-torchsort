@@ -3,3 +3,7 @@
 ## Overview
 
 This work parallelizes Teddy Koker's implementation of [torchsort](https://github.com/teddykoker/torchsort) for the sequence length dimension. For that, we used a Divide-&-Conquer approach to parallelize the Pool Adjacent Violators (PAV) Algorithm. We demonstrated the parallelization and its correctness by conducting wall-clock time benchmarking, correctness unit tests, and classification training on [CIFAR-10](https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf) using top-K loss. 
+
+## Modifications and Results
+
+The kernels implementing parallel PAV are in [isotonic_cuda.cu](https://github.com/nirmal129/torchsort/blob/48e4ef52bab17cc2a5e458808a7809e160b1a943/torchsort/isotonic_cuda.cu#L304) and the results are in [extra/ folder](https://github.com/nirmal129/torchsort/tree/48e4ef52bab17cc2a5e458808a7809e160b1a943/extra). 
