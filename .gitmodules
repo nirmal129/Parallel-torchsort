@@ -1,0 +1,3 @@
+[submodule "torchsort"]
+	path = torchsort
+	url = https://github.com/nirmal129/torchsort
