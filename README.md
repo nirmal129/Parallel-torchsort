@@ -8,6 +8,6 @@ This work parallelizes Teddy Koker's implementation of [torchsort](https://githu
 
 The kernels implementing parallel PAV are in [isotonic_cuda.cu](https://github.com/nirmal129/torchsort/blob/main/torchsort/isotonic_cuda.cu#L304) and the results are in [extra/](https://github.com/nirmal129/torchsort/tree/main/extra). 
 
-![Parallel Benchmark L2](https://github.com/nirmal129/torchsort/raw/main/torchsort/extra/benchmark_cuda_nnp_l2.png)
+![Parallel Benchmark L2](https://github.com/nirmal129/torchsort/raw/main/extra/benchmark_cuda_nnp_l2.png)
 
-![Parallel Benchmark KL](https://github.com/nirmal129/torchsort/raw/main/torchsort/extra/benchmark_cuda_nnp_kl.png)
+![Parallel Benchmark KL](https://github.com/nirmal129/torchsort/raw/main/extra/benchmark_cuda_nnp_kl.png)
